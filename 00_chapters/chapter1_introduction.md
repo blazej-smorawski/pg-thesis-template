@@ -1,3 +1,10 @@
+---
+geometry: "left=25mm,right=25mm,top=10mm,bottom=25mm"
+fontfamily: arial
+fontsize: 10pt
+monofont: "Courier New"
+---
+
 # Introduction
 
 ## Simple figure

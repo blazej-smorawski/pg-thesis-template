@@ -38,7 +38,7 @@ break_____________________"
 echo $FILES
 
 docker run -v$(pwd):/data --user $(id -u):$(id -g)\
-    ghcr.io/group-project-gut/pg-thesis-template \
+    ghcr.io/blazej-smorawski/pg-thesis-template \
     --pdf-engine=xelatex \
     --output=output/thesis.pdf \
     -H "91_preable/preamble.tex" \

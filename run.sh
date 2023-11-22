@@ -46,4 +46,7 @@ docker run -v$(pwd):/data --user $(id -u):$(id -g)\
     -V fontsize=10pt -V documentclass:book \
     -V papersize:a4paper -V classoption:openright --number-sections \
     --csl=harvard-limerick.csl $FILES \
-    --bibliography=05_references/references.bib
+    --bibliography=05_references/references.bib \
+    --filter pandoc-plantuml
+
+rm -rf plantuml-images
